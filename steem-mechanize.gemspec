@@ -1,0 +1,25 @@
+# coding: utf-8
+lib = File.expand_path('../lib', __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require 'steem/mechanize/version'
+
+Gem::Specification.new do |spec|
+  spec.name = 'steem-mechanize'
+  spec.version = Steem::Mechanize::VERSION
+  spec.authors = ['Anthony Martin']
+  spec.email = ['anthony@steem.com']
+
+  spec.summary = %q{Steem Mechanize Client}
+  spec.description = %q{Mechanized ruby client for accessing the Steem blockchain.}
+  spec.homepage = 'https://github.com/steem/steem-mechanize'
+  spec.license = 'MIT'
+
+  spec.files = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test)/}) }
+  spec.require_paths = ['lib']
+
+  spec.add_development_dependency 'bundler', '~> 1.16', '>= 1.16.1'
+  spec.add_development_dependency 'rake', '~> 12.3', '>= 12.3.0'
+  
+  spec.add_dependency 'steem-ruby', '~> 0.9', '>= 0.9.0'
+  spec.add_dependency 'mechanize', '~> 2.7', '>= 2.7.5'
+end
