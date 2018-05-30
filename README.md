@@ -6,7 +6,7 @@ Steem Mechanize is an extension to [`steem-ruby`](https://github.com/steemit/ste
 
 ## Feature
 
-There one only feature provided by this gem: Persistent HTTP
+There is only one feature provided by this gem: Persistent HTTP
 
 All other functionality is identical to `steem-ruby`.  This gem achieves HTTP persistence by instantiating a Mechanize Agent as a singleton and using this agent for all requests.
 
