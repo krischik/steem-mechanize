@@ -20,6 +20,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'bundler', '~> 1.16', '>= 1.16.1'
   spec.add_development_dependency 'rake', '~> 12.3', '>= 12.3.0'
   
-  spec.add_dependency 'steem-ruby', '~> 0.9', '>= 0.9.0'
+  spec.add_dependency 'steem-ruby', '~> 0.9', '>= 0.9.1'
   spec.add_dependency 'mechanize', '~> 2.7', '>= 2.7.5'
 end
