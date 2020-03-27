@@ -6,8 +6,8 @@ require 'steem/mechanize/version'
 Gem::Specification.new do |spec|
   spec.name = 'steem-mechanize'
   spec.version = Steem::Mechanize::VERSION
-  spec.authors = ['Anthony Martin', 'Martin Krischik']
-  spec.email = ['anthony@steem.com', 'krischik@users.sourceforge.net']
+  spec.authors = ['Anthony Martin', "Martin Krischik"]
+  spec.email = ['anthony@steem.com', ""]
 
   spec.summary = %q{Steem Mechanize Client}
   spec.description = %q{Mechanized ruby client for accessing the Steem blockchain.}
