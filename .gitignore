@@ -38,3 +38,4 @@ build-iPhoneSimulator/
 
 # gource output
 output.mp4
+.backups
